@@ -1,7 +1,7 @@
-# 🐴 Horse Blocker
+# Horse Blocker 🐴
 
 Stop doomscrolling, embrace hors.
-The horse is inevitable.
+The hors is inevitable.
 
 A simple userscript that helps reduce doomscrolling on X/Twitter by gradually showing a horse image until it completely blocks the screen.
 
