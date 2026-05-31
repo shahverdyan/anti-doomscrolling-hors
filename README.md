@@ -1,6 +1,9 @@
 # 🐴 Horse Blocker
 
-A simple userscript that helps reduce doomscrolling on X (Twitter) by gradually showing a horse image until it completely blocks the screen.
+Stop doomscrolling, embrace hors.
+The horse is inevitable.
+
+A simple userscript that helps reduce doomscrolling on X/Twitter by gradually showing a horse image until it completely blocks the screen.
 
 Available versions:
 
@@ -13,7 +16,7 @@ The script follows three phases:
 
 1. **Free browsing**
 
-   * You can use X normally.
+   * You can use Twitter normally.
    * Duration: **5 minutes**.
 
 2. **Horse fade-in**
@@ -44,20 +47,22 @@ After the block period ends, the timer resets automatically.
 
 The horse gradually becomes more visible until it completely covers the page.
 
+If you try to refresh the page or close the tabs and enter again, the horse still appears.
+
 ## Installation
 
 ### PC
 
 1. Install Tampermonkey.
 2. Create a new userscript.
-3. Paste the contents of `horse-pc.js`.
+3. Paste the contents of `hors_pc.js`.
 4. Save and enable the script.
 
 ### iOS
 
-1. Use a browser or extension that supports userscripts.
+1. Use a browser or extension that supports userscripts, e.g. Userscripts on Appstore.
 2. Create a new script.
-3. Paste the contents of `horse-ios.js`.
+3. Paste the contents of `hors_ios.js`.
 4. Save and enable the script.
 
 ## Customization
@@ -77,10 +82,4 @@ For example, to use it on Instagram:
 ```
 
 You can also replace the horse image with any other image by changing the embedded Base64 image source.
-
-## Purpose
-
-This project was created as a lightweight visual reminder to stop endless scrolling and spend less time on social media.
-
-The horse is inevitable.
 
